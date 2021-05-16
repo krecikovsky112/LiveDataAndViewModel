@@ -16,11 +16,14 @@
             app:layout_constraintTop_toTopOf="parent" android:id="@+id/nameTextView" android:textSize="30sp"
             android:textColor="@android:color/black"/>
     <Button
-            android:text="Button"
+            android:text="Fetch"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" android:id="@+id/buttonRefresh"
-            app:layout_constraintTop_toTopOf="parent"
-            android:layout_marginTop="470dp" app:layout_constraintStart_toStartOf="parent"
-            android:layout_marginStart="155dp"/>
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="161dp"
+            android:layout_marginEnd="163dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0" app:layout_constraintTop_toBottomOf="@+id/nameTextView"
+            android:layout_marginTop="30dp"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
